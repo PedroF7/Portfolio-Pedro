@@ -42,7 +42,7 @@ nav ul li a::after{
 
 /* TOPO-DO-SITE */
 section#topo-do-site{
-    height: 80vh;
+    height: 73vh;
 }
 
 .txt-animado{
@@ -77,7 +77,6 @@ section#topo-do-site{
 }
 
 /* SOBRE MIM*/
-
 section#sobre img{
     width: 350px;
 }
