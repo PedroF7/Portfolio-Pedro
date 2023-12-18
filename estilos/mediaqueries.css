@@ -30,6 +30,10 @@
     padding-right: 15px;
 }
 
+.menu-mobile .btn-fechar i{
+    font-size: 42px;
+}
+
 /* CABEÇALHO */
 header{
     position: fixed;
@@ -64,11 +68,11 @@ section#topo-do-site{
     padding-bottom: 20px;
 }
 
-.btn-topo-do-site button{
-    width: 120px;
-    height: 50px;
+.txt-animado .btn-topo-do-site button {
+    width: 130px;
+    height: 90px;
     margin-right: 15px;
-    font-size: 0.5em;
+    font-size: 2.2em;
     margin-top: 40px;
 }
 
@@ -195,7 +199,7 @@ footer{
         border-radius: 20px;
         cursor: pointer;
     }
-    
+
     .btn-topo-do-site button:hover{
         box-shadow: 6px 6px 2px aqua;
     }
