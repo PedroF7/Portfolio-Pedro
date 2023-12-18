@@ -110,7 +110,7 @@ section#projetos .projetos-box img {
 
 /* RODAPÉ */
 footer{
-    padding-right: 5%;
+    padding-right: 3%;
     margin-top: 11%;
 }
 }
@@ -206,7 +206,7 @@ footer{
     }
 
     section#sobre img{
-        width: 450px;
+        width: 430px;
     }
 
     section#sobre .txt-sobre h1 {
