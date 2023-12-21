@@ -56,7 +56,7 @@
         .btn-social-fixo {
             color: white;
             border: none;
-            padding: 10px 15px;
+            padding: 11px 15px;
             text-align: center;
             text-decoration: none;
             display: inline-block;
@@ -79,7 +79,7 @@
         .vertical-line {
             content: "";
             width: 2px;
-            height: 14%;
+            height: 10%;
             background-color: aqua;
             position: fixed;
             bottom: 0;
@@ -192,7 +192,7 @@
             border-radius: 30px;
             cursor: pointer;
             transition: .2s;
-            margin: 15px 20px 15px 25px;
+            margin: 25px 20px 15px 25px;
         }
 
         .btn-contato button:hover{
