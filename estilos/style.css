@@ -484,6 +484,36 @@
             font-size: 2em;
         }
 
+        .lista-tec ul{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            list-style-type: disc;
+            padding: 15px 18px 15px 0px;
+            gap: 35px;
+        }
+
+        .lista-tec li{
+            list-style-type: none;
+            position:relative;
+            margin-bottom: 0.5em;
+        }
+
+        .lista-tec p{
+            font-size: 1.3em;
+            text-align: center;
+        }
+
+        .lista-tec li::before{
+            content: "•";
+            display: inline-block;
+            position: absolute;
+            font-size: 2em;
+            left: -0.5em;
+            top: -0.2em;
+            color:#00c7ba;
+        }
+
         /* RODAPÉ */
         footer{
             padding-top: 8%;
