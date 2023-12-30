@@ -84,7 +84,7 @@
             content: "";
             width: 2px;
             height: 10%;
-            background-color: aqua;
+            background-color: rgb(102,51,255);
             position: fixed;
             bottom: 0;
             left: 65px; 
@@ -97,7 +97,6 @@
             content: "";
             width: 85%;
             height: 2px;
-            background-color: aqua;
             transition: 0.3s;
         }
 
@@ -203,6 +202,14 @@
 
         .btn-contato button:hover{
             transform: scale(1.08);
+        }
+
+        header img{
+            transition: .2s;
+        }
+
+        header img:hover{
+            transform: scale(1.10);
         }
         
         /* ESTILO DO MENU MOBILE */
