@@ -16,7 +16,7 @@
         html{
             scroll-behavior: smooth;
         }
-
+        
         body{
             width: 100vw;
             height: 100vh;
@@ -496,7 +496,6 @@
         }
 
         .lista-tec p{
-            font-size: 1.3em;
             text-align: center;
         }
 
@@ -504,7 +503,7 @@
             content: "•";
             display: inline-block;
             position: absolute;
-            font-size: 2em;
+            font-size: 1.5em;
             left: -0.5em;
             top: -0.2em;
             color: aqua;
