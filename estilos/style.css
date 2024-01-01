@@ -136,8 +136,7 @@
             height: 80px;
             left: 0;
             width: 100%;
-            background: rgba(0, 0, 0, 0.0);
-            z-index: 1000;
+            z-index: 999;
         }
         
         header > .interface{
@@ -288,13 +287,11 @@
             padding: 17% 5%;
             height: 98vh;
             position: relative; 
-            z-index: 1;
         }
 
         section#topo-do-site .flex{
             align-items: center;
             justify-content: center;
-            background-color: black;
             color: white;
         }
 
@@ -331,7 +328,6 @@
             right: -10px;
             animation: cursor .8s infinite, digita 20s steps(15) infinite;
             width: calc(100% + 18px);
-            background-color: black;
         }
 
         @keyframes digita {
